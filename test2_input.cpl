@@ -1,0 +1,11 @@
+class ForPrint
+start
+var int:a , i;
+ string: d;
+ d="Pls enter a number ";
+ write(d);
+ read(a);
+ /* Printing numbers between 1 and a*/
+ foreach i=1 till a with i=i+1
+write(i);
+end

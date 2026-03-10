@@ -1,0 +1,12 @@
+class Min /* Finding minimum between two numbers */
+start
+var real : a,b;
+ string: d;
+
+ read(a);
+ read(b);
+ d="the result is ";
+ write(d);
+ if (a<b) then write(a);
+else write(b);
+end
